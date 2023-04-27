@@ -5,7 +5,7 @@ class Produto:
         self.preco = preco
         self.estoque = estoque
 
-    def __repr__(self):
+    def __str__(self):
         return f"Código: {self.codigo} - Produto: {self.nome} - R${self.preco:.2f} - Quantidade: {self.estoque} em estoque"
 
 def order_preco(value):
